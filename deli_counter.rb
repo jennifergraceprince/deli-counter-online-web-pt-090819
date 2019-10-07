@@ -7,3 +7,4 @@ def line(array)
     message = "The line is currently:"
   end
 end
+
