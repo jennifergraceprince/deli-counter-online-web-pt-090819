@@ -15,3 +15,4 @@ def take_a_number(katz_deli, name)
   return name, position 
 end 
 
+def now_serving
