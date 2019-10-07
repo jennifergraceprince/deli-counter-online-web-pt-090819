@@ -21,10 +21,6 @@ def take_a_number(array, name)
   return name, position 
 end 
 
-take_a_number(katz_deli, "John")
-take_a_number(katz_deli, "Vanessa")
-take_a_number(katz_deli, "Kenny")
-
 line(katz_deli)
 
 def now_serving
