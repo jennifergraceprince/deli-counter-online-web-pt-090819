@@ -6,7 +6,13 @@ def line(array)
   else 
     message = "The line is currently:"
   end
-end
+  
+  array.each_with_index do |value, index| 
+    message += " #{index.to_i+1}. #{value}"
+  end 
+  puts "#{message}"
+  end 
+end 
 
 def take_a_number(array, name)
   array.push(name)
